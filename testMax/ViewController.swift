@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var labelLogin: UILabel!
+    @IBOutlet weak var labelPssword: UILabel!
+    @IBOutlet weak var loginButton: UIButton!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +22,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func actionLoginButton(_ sender: Any) {
+        print("test examole  \(sender)")
+//      \(sender)
+    }
 }
 
